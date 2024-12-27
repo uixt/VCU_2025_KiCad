@@ -3164,18 +3164,6 @@
 		(uuid "0dd77db2-f7f7-42b0-8023-d1e1887a60ce")
 	)
 	(junction
-		(at 43.18 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "144acefb-c122-4dd9-b20e-3468f683e959")
-	)
-	(junction
-		(at -26.67 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1baf5d28-a93f-497d-82f2-c6a30866a034")
-	)
-	(junction
 		(at 88.9 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3192,12 +3180,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "24516b62-9af4-4efc-93aa-23a184761005")
-	)
-	(junction
-		(at 43.18 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4ec3c3d4-03ed-4dbd-bdf8-88db22e4ed1b")
 	)
 	(junction
 		(at 88.9 148.59)
@@ -3230,28 +3212,10 @@
 		(uuid "732dafda-06f8-492b-81cb-e7060b9e038f")
 	)
 	(junction
-		(at 43.18 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "810624e3-5b59-42c4-9a0f-93fe234ffc53")
-	)
-	(junction
 		(at 88.9 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9fdcb454-ab90-4f68-b3ad-b6ea647720b2")
-	)
-	(junction
-		(at 43.18 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a8b4ab45-31e2-4bf7-97ad-165f749c61a5")
-	)
-	(junction
-		(at 43.18 165.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a9d835b9-2c75-4c9c-b585-d98fdb3bb38a")
 	)
 	(junction
 		(at 97.79 148.59)
@@ -3272,18 +3236,6 @@
 		(uuid "c51bcc88-6d13-4af4-bdfb-fc2381439c1e")
 	)
 	(junction
-		(at -26.67 153.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e83c255e-162a-41cc-ae34-6a31e1c66d08")
-	)
-	(junction
-		(at -26.67 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eaba0b16-c1e7-47f1-a6c9-ccae7d1c4dec")
-	)
-	(junction
 		(at 97.79 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3294,12 +3246,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f7121231-bd0e-48ff-90a6-4afc91584ae6")
-	)
-	(junction
-		(at -26.67 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f8805dfa-e58f-46ef-883c-69651b6f21a0")
 	)
 	(no_connect
 		(at 259.08 127)
@@ -3501,13 +3447,23 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 101.6) (xy 49.53 101.6)
+			(xy 52.07 105.41) (xy 54.61 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0671d41a-2c49-484a-b3a7-e85577480e99")
+	)
+	(wire
+		(pts
+			(xy 16.51 100.33) (xy 34.29 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07cb5916-668d-4c2f-8ad8-47df54968d58")
 	)
 	(wire
 		(pts
@@ -3521,16 +3477,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 147.32) (xy 66.04 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a6bd8c4-4fb9-4932-a0f9-5997b516bde1")
-	)
-	(wire
-		(pts
 			(xy 198.12 38.1) (xy 213.36 38.1)
 		)
 		(stroke
@@ -3541,16 +3487,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 147.32) (xy 52.07 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bbee34d-7cbf-4873-82f5-26605e029843")
-	)
-	(wire
-		(pts
 			(xy 196.85 35.56) (xy 213.36 35.56)
 		)
 		(stroke
@@ -3558,6 +3494,16 @@
 			(type default)
 		)
 		(uuid "14891c04-dba1-4aee-9515-fabe067130cc")
+	)
+	(wire
+		(pts
+			(xy 62.23 85.09) (xy 66.04 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "164692ab-3fe4-4cae-823f-075e14de2d10")
 	)
 	(wire
 		(pts
@@ -3601,6 +3547,16 @@
 	)
 	(wire
 		(pts
+			(xy 17.78 163.83) (xy 34.29 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1aff2221-adc5-4e26-af4a-1d40bb8c3964")
+	)
+	(wire
+		(pts
 			(xy 153.67 86.36) (xy 166.37 86.36)
 		)
 		(stroke
@@ -3618,16 +3574,6 @@
 			(type default)
 		)
 		(uuid "20d9130e-666d-4140-bd19-495e43975a03")
-	)
-	(wire
-		(pts
-			(xy 59.69 127) (xy 66.04 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20eb8cef-21c8-406e-b9b5-4f4aefcf5beb")
 	)
 	(wire
 		(pts
@@ -3751,13 +3697,13 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 116.84) (xy 38.1 116.84)
+			(xy 62.23 105.41) (xy 66.04 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "36614628-9a38-4b1b-9817-2a909c62da33")
+		(uuid "316e27ef-19c9-43d1-a511-0148d6a6f432")
 	)
 	(wire
 		(pts
@@ -3811,26 +3757,6 @@
 	)
 	(wire
 		(pts
-			(xy -26.67 153.67) (xy -26.67 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ca73bc2-67e6-46aa-9579-e7bea590b9f9")
-	)
-	(wire
-		(pts
-			(xy 43.18 86.36) (xy 52.07 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d356999-a318-4083-aede-9feaabac824b")
-	)
-	(wire
-		(pts
 			(xy 341.63 86.36) (xy 321.31 86.36)
 		)
 		(stroke
@@ -3868,16 +3794,6 @@
 			(type default)
 		)
 		(uuid "45efabd9-e319-45d3-8561-43596d56cb8c")
-	)
-	(wire
-		(pts
-			(xy 43.18 142.24) (xy 43.18 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "470f82b9-eb9b-470e-a797-1c1455237803")
 	)
 	(wire
 		(pts
@@ -4011,23 +3927,13 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 170.18) (xy 66.04 170.18)
+			(xy 16.51 80.01) (xy 34.29 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5c0a93d5-48f7-4378-af31-2f80cdfe6a8f")
-	)
-	(wire
-		(pts
-			(xy 43.18 106.68) (xy 52.07 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "620aa3de-5931-4efd-8851-0cb4eee64b8b")
+		(uuid "5e4f9f5a-562b-49ed-892d-d356d08cd253")
 	)
 	(wire
 		(pts
@@ -4051,26 +3957,6 @@
 	)
 	(wire
 		(pts
-			(xy -26.67 133.35) (xy -26.67 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63874a5f-b23d-48f4-aa8d-54f8ed4e1bcf")
-	)
-	(wire
-		(pts
-			(xy -26.67 113.03) (xy -26.67 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64cf1006-0e3f-4fad-a375-eb2e89768186")
-	)
-	(wire
-		(pts
 			(xy 62.23 49.53) (xy 44.45 49.53)
 		)
 		(stroke
@@ -4091,7 +3977,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 165.1) (xy 50.8 165.1)
+			(xy 52.07 168.91) (xy 54.61 168.91)
 		)
 		(stroke
 			(width 0)
@@ -4211,16 +4097,6 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 96.52) (xy 38.1 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8049c602-4474-4e79-ac15-83945b18c155")
-	)
-	(wire
-		(pts
 			(xy 96.52 114.3) (xy 97.79 114.3)
 		)
 		(stroke
@@ -4258,16 +4134,6 @@
 			(type default)
 		)
 		(uuid "89d4d44c-4be0-4c47-bc31-92a138ce1839")
-	)
-	(wire
-		(pts
-			(xy 43.18 101.6) (xy 43.18 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b2e1785-cd97-46ed-a57c-5088e64916e5")
 	)
 	(wire
 		(pts
@@ -4311,6 +4177,16 @@
 	)
 	(wire
 		(pts
+			(xy 17.78 140.97) (xy 34.29 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "949df4f2-d6f0-4de9-8d5b-ac79863e5da1")
+	)
+	(wire
+		(pts
 			(xy 157.48 36.83) (xy 157.48 39.37)
 		)
 		(stroke
@@ -4331,7 +4207,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 121.92) (xy 50.8 121.92)
+			(xy 52.07 125.73) (xy 54.61 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4371,16 +4247,6 @@
 	)
 	(wire
 		(pts
-			(xy -26.67 90.17) (xy -26.67 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e34b6a7-8150-4896-9381-f8b248014dc1")
-	)
-	(wire
-		(pts
 			(xy 62.23 41.91) (xy 44.45 41.91)
 		)
 		(stroke
@@ -4398,26 +4264,6 @@
 			(type default)
 		)
 		(uuid "a0b2ed2f-480a-4d6a-9870-ffa62748905f")
-	)
-	(wire
-		(pts
-			(xy 43.18 127) (xy 52.07 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a30f80c5-4837-4acf-a265-cf8e532309d7")
-	)
-	(wire
-		(pts
-			(xy 43.18 170.18) (xy 52.07 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a53a88e5-8b25-466d-be70-648438bc8c03")
 	)
 	(wire
 		(pts
@@ -4471,7 +4317,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 137.16) (xy 50.8 137.16)
+			(xy 57.15 140.97) (xy 59.69 140.97)
 		)
 		(stroke
 			(width 0)
@@ -4481,7 +4327,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 160.02) (xy 50.8 160.02)
+			(xy 57.15 163.83) (xy 59.69 163.83)
 		)
 		(stroke
 			(width 0)
@@ -4521,6 +4367,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 125.73) (xy 66.04 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd2a25e0-fbb8-4e0b-be6d-87be174a7636")
+	)
+	(wire
+		(pts
 			(xy 118.11 54.61) (xy 99.06 54.61)
 		)
 		(stroke
@@ -4541,23 +4397,13 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 86.36) (xy 66.04 86.36)
+			(xy 62.23 146.05) (xy 66.04 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c7d78c07-b983-4fef-bdb7-502d5d7b2342")
-	)
-	(wire
-		(pts
-			(xy 21.59 160.02) (xy 38.1 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb8d1ba3-f350-4719-8c90-7e78a63e300e")
+		(uuid "cafc98f2-6aa5-4a39-8de5-6f51c6540557")
 	)
 	(wire
 		(pts
@@ -4568,6 +4414,16 @@
 			(type default)
 		)
 		(uuid "cc305011-6791-4b62-a1c0-1a21821907de")
+	)
+	(wire
+		(pts
+			(xy 17.78 120.65) (xy 34.29 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cda88521-02a2-4dd8-bbdf-865c965a8eec")
 	)
 	(wire
 		(pts
@@ -4601,7 +4457,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 116.84) (xy 50.8 116.84)
+			(xy 57.15 120.65) (xy 59.69 120.65)
 		)
 		(stroke
 			(width 0)
@@ -4611,17 +4467,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 106.68) (xy 66.04 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4d5a472-c1c9-4a6e-ac54-56af61610940")
-	)
-	(wire
-		(pts
-			(xy 43.18 81.28) (xy 57.15 81.28)
+			(xy 52.07 85.09) (xy 54.61 85.09)
 		)
 		(stroke
 			(width 0)
@@ -4631,7 +4477,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 142.24) (xy 50.8 142.24)
+			(xy 52.07 146.05) (xy 54.61 146.05)
 		)
 		(stroke
 			(width 0)
@@ -4671,13 +4517,13 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 121.92) (xy 43.18 127)
+			(xy 62.23 168.91) (xy 66.04 168.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "df568a78-d8a7-4bb1-81fc-99b3c981ee1e")
+		(uuid "dd3b0986-7e21-4e63-9ea7-f0c05cfa522b")
 	)
 	(wire
 		(pts
@@ -4701,16 +4547,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 165.1) (xy 43.18 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4222999-1282-4816-9bf2-f6655aef54ab")
-	)
-	(wire
-		(pts
 			(xy 160.02 161.29) (xy 160.02 162.56)
 		)
 		(stroke
@@ -4721,16 +4557,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 81.28) (xy 43.18 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6835de7-330e-4839-b070-85b84cef8e65")
-	)
-	(wire
-		(pts
 			(xy 118.11 44.45) (xy 99.06 44.45)
 		)
 		(stroke
@@ -4738,16 +4564,6 @@
 			(type default)
 		)
 		(uuid "e749be15-04f8-41ed-b9ba-aa7c3b3798ef")
-	)
-	(wire
-		(pts
-			(xy 20.32 76.2) (xy 38.1 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea20267f-ee15-4791-9734-56f3d9d8ef9b")
 	)
 	(wire
 		(pts
@@ -4778,16 +4594,6 @@
 			(type default)
 		)
 		(uuid "ec6a1e4a-dc1d-4df9-a37b-f312c093c37b")
-	)
-	(wire
-		(pts
-			(xy 21.59 137.16) (xy 38.1 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eca6de8c-721c-4069-b7bc-eaf8e9631e3f")
 	)
 	(wire
 		(pts
@@ -4841,17 +4647,7 @@
 	)
 	(wire
 		(pts
-			(xy -26.67 81.28) (xy -26.67 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f31c97d6-c943-47db-857c-13e5abe6d95f")
-	)
-	(wire
-		(pts
-			(xy 49.53 96.52) (xy 48.26 96.52)
+			(xy 58.42 100.33) (xy 57.15 100.33)
 		)
 		(stroke
 			(width 0)
@@ -5086,6 +4882,17 @@
 		)
 		(uuid "0e40783a-053c-4cb1-8055-8adb8225561b")
 	)
+	(label "BrakeLightGND"
+		(at 16.51 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "13535aa8-c774-4e80-9bac-ad960dcd2bd4")
+	)
 	(label "RSignalLightGND"
 		(at 62.23 44.45 180)
 		(fields_autoplaced yes)
@@ -5096,6 +4903,17 @@
 			(justify right bottom)
 		)
 		(uuid "136fe4ad-ce06-4f03-ab9e-871b765525e7")
+	)
+	(label "DRLRightGND"
+		(at 17.78 140.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "16e89a80-aa31-4d5c-906c-5dd65726ee7a")
 	)
 	(label "UART_TX"
 		(at 168.91 125.73 180)
@@ -5119,19 +4937,8 @@
 		)
 		(uuid "1cdc3b54-d638-4996-b9ce-8a85465a6de6")
 	)
-	(label "BrakeLightGND"
-		(at 20.32 76.2 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1e23660b-e3c8-483f-a527-fdfd286ecaae")
-	)
 	(label "LSignalLightOut"
-		(at 50.8 121.92 0)
+		(at 66.04 125.73 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5140,17 +4947,6 @@
 			(justify left bottom)
 		)
 		(uuid "1e67d5a8-015e-4ebf-885c-5ee0c4b8ce33")
-	)
-	(label "LSignalLightGND"
-		(at 21.59 116.84 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1ebf21c1-eaac-4c54-b461-e25a450bf72a")
 	)
 	(label "BrakeLightGND"
 		(at 62.23 41.91 180)
@@ -5328,6 +5124,17 @@
 		)
 		(uuid "51c17a0e-bb93-4570-a0e7-358ba4e8ca3b")
 	)
+	(label "LSignalLightGND"
+		(at 17.78 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5abd5a18-13aa-41b6-bad0-d814358b6338")
+	)
 	(label "HazardIn"
 		(at 199.39 134.62 0)
 		(fields_autoplaced yes)
@@ -5395,7 +5202,7 @@
 		(uuid "5f14cdda-fd75-4a9a-b43c-7e94a2892505")
 	)
 	(label "DRLLeftOut"
-		(at 50.8 165.1 0)
+		(at 66.04 168.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5526,17 +5333,6 @@
 		)
 		(uuid "7bf64d2f-a86e-48ad-9833-9333329709fb")
 	)
-	(label "DRLRightGND"
-		(at 21.59 137.16 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8af303af-58b8-4cbe-8a63-927fcd89af98")
-	)
 	(label "HazardButton"
 		(at 118.11 54.61 180)
 		(fields_autoplaced yes)
@@ -5580,6 +5376,17 @@
 			(justify right bottom)
 		)
 		(uuid "9c8392d6-972a-4c66-8e2e-d30314d4b70d")
+	)
+	(label "RSignalLightGND"
+		(at 16.51 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9f1879a7-3e1a-4fa6-af09-dce68ec340b4")
 	)
 	(label "AccelIn"
 		(at 97.79 109.22 0)
@@ -5691,17 +5498,6 @@
 		)
 		(uuid "ba69e877-5682-44f8-a793-730c1c400a19")
 	)
-	(label "DRLLeftGND"
-		(at 21.59 160.02 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bab1914d-e867-48bb-bd83-327d7b710f4b")
-	)
 	(label "ThermalShutoff"
 		(at 196.85 55.88 0)
 		(fields_autoplaced yes)
@@ -5747,7 +5543,7 @@
 		(uuid "c5ec988e-2713-4566-aee0-a616c51f200e")
 	)
 	(label "DRLRightOut"
-		(at 50.8 142.24 0)
+		(at 66.04 146.05 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5878,19 +5674,8 @@
 		)
 		(uuid "dd1d3535-3333-443e-8220-f244c9bc02e9")
 	)
-	(label "RSignalLightGND"
-		(at 20.32 96.52 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "df3a6d7d-5e42-474d-90b1-86b23bcf2120")
-	)
 	(label "BrakeLightOut"
-		(at 57.15 81.28 0)
+		(at 66.04 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5910,6 +5695,17 @@
 			(justify left bottom)
 		)
 		(uuid "dffea5a1-a5dc-4714-9e85-4a2188cb7bd2")
+	)
+	(label "DRLLeftGND"
+		(at 17.78 163.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e01c3889-d3c1-47c3-bada-392deda3b421")
 	)
 	(label "BrakeLightOut"
 		(at 107.95 -29.21 0)
@@ -5989,7 +5785,7 @@
 		(uuid "fc3e26d0-2db7-4d3c-a80b-4c3be16ebf6a")
 	)
 	(label "RSignalLightOut"
-		(at 49.53 101.6 0)
+		(at 66.04 105.41 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6565,7 +6361,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 50.8 160.02 90)
+		(at 59.69 163.83 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6574,7 +6370,7 @@
 		(fields_autoplaced yes)
 		(uuid "17ddef04-b213-41c0-a9e2-9aa7d74092d2")
 		(property "Reference" "#PWR031"
-			(at 57.15 160.02 0)
+			(at 66.04 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6583,7 +6379,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 54.61 160.0199 90)
+			(at 63.5 163.8299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6592,7 +6388,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 160.02 0)
+			(at 59.69 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6601,7 +6397,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 160.02 0)
+			(at 59.69 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6610,7 +6406,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 50.8 160.02 0)
+			(at 59.69 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6759,73 +6555,6 @@
 			(project "DC"
 				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
 					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 66.04 127 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1adf247b-c67a-48da-a654-80ff1aefc426")
-		(property "Reference" "#PWR05"
-			(at 72.39 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 69.85 126.9999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 66.04 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c8ddc111-4c7a-4182-9428-1a40e868092c")
-		)
-		(instances
-			(project "DC"
-				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
-					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -6989,8 +6718,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 58.42 125.73 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "34e90c31-e4bd-4c95-bf9e-549f797a87cf")
+		(property "Reference" "R5"
+			(at 58.42 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220Ω"
+			(at 58.42 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DriverControlsLib:RES-TH_BD2.2-L6.5-P10.50-D0.6"
+			(at 58.42 127.508 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 58.42 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ecff30f-29fe-45fc-9fce-bcadb81ece2f")
+		)
+		(pin "2"
+			(uuid "979e45ca-60fe-40b9-838a-b5c4906ed31e")
+		)
+		(instances
+			(project "DC"
+				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "DriverControlsLib:FQP30N06L")
-		(at 43.18 116.84 90)
+		(at 52.07 120.65 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6999,7 +6795,7 @@
 		(fields_autoplaced yes)
 		(uuid "34e975dd-cb08-4997-a669-9df0bb7beaaa")
 		(property "Reference" "U3"
-			(at 43.18 109.22 90)
+			(at 52.07 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7007,7 +6803,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 43.18 111.76 90)
+			(at 52.07 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7015,7 +6811,7 @@
 			)
 		)
 		(property "Footprint" "DriverControlsLib:TO220-3_ONS"
-			(at 43.18 116.84 0)
+			(at 52.07 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7024,7 +6820,7 @@
 			)
 		)
 		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20220923/DB01B4617723520DCFE997B5B1D3C46E.pdf"
-			(at 43.18 116.84 0)
+			(at 52.07 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7033,7 +6829,7 @@
 			)
 		)
 		(property "Description" "Type:1个NChannel Drain Source Voltage (Vdss):60V Continuous Drain Current (Id): Power Dissipation (Pd): Drain Source On Resistance (RDS(on)@Vgs,Id): Gate Threshold Voltage (Vgs(th)@Id):2.5V@250uA Total Gate Charge (Qg@Vgs):20nC@5V Input Capacitance (Ciss@V"
-			(at 43.18 116.84 0)
+			(at 52.07 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7042,7 +6838,7 @@
 			)
 		)
 		(property "Manufacturer Part" "FQP30N06L"
-			(at 43.18 116.84 0)
+			(at 52.07 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7051,7 +6847,7 @@
 			)
 		)
 		(property "Manufacturer" "onsemi(安森美)"
-			(at 43.18 116.84 0)
+			(at 52.07 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7060,7 +6856,7 @@
 			)
 		)
 		(property "Supplier Part" "C243087"
-			(at 43.18 116.84 0)
+			(at 52.07 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7069,7 +6865,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 43.18 116.84 0)
+			(at 52.07 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7078,7 +6874,7 @@
 			)
 		)
 		(property "LCSC Part Name" "1个N沟道 耐压:60V 电流:32A 停产"
-			(at 43.18 116.84 0)
+			(at 52.07 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7099,73 +6895,6 @@
 			(project "DC"
 				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
 					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 55.88 86.36 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "380ed236-49d1-49db-8ead-3d533f379d71")
-		(property "Reference" "R3"
-			(at 55.88 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1kΩ"
-			(at 55.88 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "DriverControlsLib:RES-TH_BD2.2-L6.5-P10.50-D0.6"
-			(at 55.88 88.138 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 55.88 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 55.88 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9966d3f7-48b9-4071-883c-7f3e1017bdf4")
-		)
-		(pin "2"
-			(uuid "f6fb1ba5-a824-4fdd-93b5-48ee3f25da5c")
-		)
-		(instances
-			(project "DC"
-				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
-					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -7667,73 +7396,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 66.04 86.36 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "523d54ab-9f29-4d76-af1a-595a0078e873")
-		(property "Reference" "#PWR03"
-			(at 72.39 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 69.85 86.3599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 66.04 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9d124327-d5f9-4826-9fe9-007c59aa16db")
-		)
-		(instances
-			(project ""
-				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 260.35 43.18 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7801,7 +7463,7 @@
 	)
 	(symbol
 		(lib_id "DriverControlsLib:FQP30N06L")
-		(at 43.18 160.02 90)
+		(at 52.07 163.83 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7810,7 +7472,7 @@
 		(fields_autoplaced yes)
 		(uuid "54bed295-0e36-4478-b178-a593b199aa36")
 		(property "Reference" "U5"
-			(at 43.18 152.4 90)
+			(at 52.07 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7818,7 +7480,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 43.18 154.94 90)
+			(at 52.07 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7826,7 +7488,7 @@
 			)
 		)
 		(property "Footprint" "DriverControlsLib:TO220-3_ONS"
-			(at 43.18 160.02 0)
+			(at 52.07 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7835,7 +7497,7 @@
 			)
 		)
 		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20220923/DB01B4617723520DCFE997B5B1D3C46E.pdf"
-			(at 43.18 160.02 0)
+			(at 52.07 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7844,7 +7506,7 @@
 			)
 		)
 		(property "Description" "Type:1个NChannel Drain Source Voltage (Vdss):60V Continuous Drain Current (Id): Power Dissipation (Pd): Drain Source On Resistance (RDS(on)@Vgs,Id): Gate Threshold Voltage (Vgs(th)@Id):2.5V@250uA Total Gate Charge (Qg@Vgs):20nC@5V Input Capacitance (Ciss@V"
-			(at 43.18 160.02 0)
+			(at 52.07 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7853,7 +7515,7 @@
 			)
 		)
 		(property "Manufacturer Part" "FQP30N06L"
-			(at 43.18 160.02 0)
+			(at 52.07 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7862,7 +7524,7 @@
 			)
 		)
 		(property "Manufacturer" "onsemi(安森美)"
-			(at 43.18 160.02 0)
+			(at 52.07 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7871,7 +7533,7 @@
 			)
 		)
 		(property "Supplier Part" "C243087"
-			(at 43.18 160.02 0)
+			(at 52.07 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7880,7 +7542,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 43.18 160.02 0)
+			(at 52.07 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7889,7 +7551,7 @@
 			)
 		)
 		(property "LCSC Part Name" "1个N沟道 耐压:60V 电流:32A 停产"
-			(at 43.18 160.02 0)
+			(at 52.07 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8053,23 +7715,23 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 55.88 170.18 90)
+		(at 58.42 105.41 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "666e583d-9f0d-4441-b85f-d021f21ce021")
-		(property "Reference" "R7"
-			(at 55.88 167.64 90)
+		(uuid "66a551dd-e6a8-4e9e-92de-f082ae048a83")
+		(property "Reference" "R3"
+			(at 58.42 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1kΩ"
-			(at 55.88 170.18 90)
+		(property "Value" "220Ω"
+			(at 58.42 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8077,7 +7739,7 @@
 			)
 		)
 		(property "Footprint" "DriverControlsLib:RES-TH_BD2.2-L6.5-P10.50-D0.6"
-			(at 55.88 171.958 90)
+			(at 58.42 107.188 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8086,7 +7748,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 55.88 170.18 0)
+			(at 58.42 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8095,7 +7757,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 55.88 170.18 0)
+			(at 58.42 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8104,15 +7766,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "f5c51561-56e4-4d1c-b556-bd4fd7979045")
+			(uuid "abb73709-b7e6-49f4-aacb-38c5a9db75a2")
 		)
 		(pin "2"
-			(uuid "1907b40e-7753-4fdd-934e-27b98f397ec0")
+			(uuid "3460acbe-fa82-41ff-b6ac-0a78df2baef4")
 		)
 		(instances
 			(project "DC"
 				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
-					(reference "R7")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -8120,7 +7782,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 49.53 96.52 90)
+		(at 58.42 100.33 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8129,7 +7791,7 @@
 		(fields_autoplaced yes)
 		(uuid "69b5cbe8-8f14-47b2-8339-6a755228c577")
 		(property "Reference" "#PWR028"
-			(at 55.88 96.52 0)
+			(at 64.77 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8138,7 +7800,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 53.34 96.5199 90)
+			(at 62.23 100.3299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8147,7 +7809,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 96.52 0)
+			(at 58.42 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8156,7 +7818,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 96.52 0)
+			(at 58.42 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8165,7 +7827,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 49.53 96.52 0)
+			(at 58.42 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8247,6 +7909,73 @@
 			(project "DC"
 				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
 					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 58.42 168.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "704a2dfe-2e3b-4d12-928b-42236ed48c65")
+		(property "Reference" "R7"
+			(at 58.42 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220Ω"
+			(at 58.42 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DriverControlsLib:RES-TH_BD2.2-L6.5-P10.50-D0.6"
+			(at 58.42 170.688 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 58.42 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f01612d3-fcdd-4107-9c26-c1ba9c0edf59")
+		)
+		(pin "2"
+			(uuid "43bc46fe-23fc-496f-8803-afffa45108db")
+		)
+		(instances
+			(project "DC"
+				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -8410,140 +8139,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 55.88 127 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "798e6477-690a-40cd-8c03-d6a51cc92ff0")
-		(property "Reference" "R5"
-			(at 55.88 124.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1kΩ"
-			(at 55.88 127 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "DriverControlsLib:RES-TH_BD2.2-L6.5-P10.50-D0.6"
-			(at 55.88 128.778 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 55.88 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 55.88 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4b2def98-e028-492d-a3ba-719e4371eacc")
-		)
-		(pin "2"
-			(uuid "39d23f93-b9f2-45f3-ae64-87ec686ed95a")
-		)
-		(instances
-			(project "DC"
-				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 66.04 106.68 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7bded7c1-1d7d-4c96-9ed7-e0f5baf4d807")
-		(property "Reference" "#PWR04"
-			(at 72.39 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 69.85 106.6799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 66.04 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f91ce1d8-822b-43a1-a1d1-54884991eedd")
-		)
-		(instances
-			(project "DC"
-				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 101.6 -29.21 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8611,7 +8206,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 50.8 116.84 90)
+		(at 59.69 120.65 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8620,7 +8215,7 @@
 		(fields_autoplaced yes)
 		(uuid "80f94feb-0ceb-4c0c-b1b7-df3079e06f57")
 		(property "Reference" "#PWR029"
-			(at 57.15 116.84 0)
+			(at 66.04 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8629,7 +8224,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 54.61 116.8399 90)
+			(at 63.5 120.6499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8638,7 +8233,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 116.84 0)
+			(at 59.69 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8647,7 +8242,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 116.84 0)
+			(at 59.69 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8656,7 +8251,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 50.8 116.84 0)
+			(at 59.69 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8809,75 +8404,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 66.04 170.18 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "84432afb-0c1a-47bb-900b-535490d85535")
-		(property "Reference" "#PWR07"
-			(at 72.39 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 69.85 170.1799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 66.04 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0071047f-74b8-46e9-84a2-c48dc841fd54")
-		)
-		(instances
-			(project "DC"
-				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "DriverControlsLib:FQP30N06L")
-		(at 43.18 137.16 90)
+		(at 52.07 140.97 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8885,7 +8413,7 @@
 		(dnp no)
 		(uuid "84c50bd5-9090-4ea2-b847-439739807f0c")
 		(property "Reference" "U4"
-			(at 44.45 129.54 90)
+			(at 53.34 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8893,7 +8421,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 43.18 132.08 90)
+			(at 52.07 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8901,7 +8429,7 @@
 			)
 		)
 		(property "Footprint" "DriverControlsLib:TO220-3_ONS"
-			(at 43.18 137.16 0)
+			(at 52.07 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8910,7 +8438,7 @@
 			)
 		)
 		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20220923/DB01B4617723520DCFE997B5B1D3C46E.pdf"
-			(at 43.18 137.16 0)
+			(at 52.07 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8919,7 +8447,7 @@
 			)
 		)
 		(property "Description" "Type:1个NChannel Drain Source Voltage (Vdss):60V Continuous Drain Current (Id): Power Dissipation (Pd): Drain Source On Resistance (RDS(on)@Vgs,Id): Gate Threshold Voltage (Vgs(th)@Id):2.5V@250uA Total Gate Charge (Qg@Vgs):20nC@5V Input Capacitance (Ciss@V"
-			(at 43.18 137.16 0)
+			(at 52.07 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8928,7 +8456,7 @@
 			)
 		)
 		(property "Manufacturer Part" "FQP30N06L"
-			(at 43.18 137.16 0)
+			(at 52.07 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8937,7 +8465,7 @@
 			)
 		)
 		(property "Manufacturer" "onsemi(安森美)"
-			(at 43.18 137.16 0)
+			(at 52.07 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8946,7 +8474,7 @@
 			)
 		)
 		(property "Supplier Part" "C243087"
-			(at 43.18 137.16 0)
+			(at 52.07 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8955,7 +8483,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 43.18 137.16 0)
+			(at 52.07 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8964,7 +8492,7 @@
 			)
 		)
 		(property "LCSC Part Name" "1个N沟道 耐压:60V 电流:32A 停产"
-			(at 43.18 137.16 0)
+			(at 52.07 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9081,7 +8609,7 @@
 	)
 	(symbol
 		(lib_id "DriverControlsLib:FQP30N06L")
-		(at 43.18 96.52 90)
+		(at 52.07 100.33 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9090,7 +8618,7 @@
 		(fields_autoplaced yes)
 		(uuid "897d55c5-eb05-40ed-b40b-de083a015457")
 		(property "Reference" "U2"
-			(at 43.18 88.9 90)
+			(at 52.07 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9098,7 +8626,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 43.18 91.44 90)
+			(at 52.07 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9106,7 +8634,7 @@
 			)
 		)
 		(property "Footprint" "DriverControlsLib:TO220-3_ONS"
-			(at 43.18 96.52 0)
+			(at 52.07 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9115,7 +8643,7 @@
 			)
 		)
 		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20220923/DB01B4617723520DCFE997B5B1D3C46E.pdf"
-			(at 43.18 96.52 0)
+			(at 52.07 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9124,7 +8652,7 @@
 			)
 		)
 		(property "Description" "Type:1个NChannel Drain Source Voltage (Vdss):60V Continuous Drain Current (Id): Power Dissipation (Pd): Drain Source On Resistance (RDS(on)@Vgs,Id): Gate Threshold Voltage (Vgs(th)@Id):2.5V@250uA Total Gate Charge (Qg@Vgs):20nC@5V Input Capacitance (Ciss@V"
-			(at 43.18 96.52 0)
+			(at 52.07 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9133,7 +8661,7 @@
 			)
 		)
 		(property "Manufacturer Part" "FQP30N06L"
-			(at 43.18 96.52 0)
+			(at 52.07 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9142,7 +8670,7 @@
 			)
 		)
 		(property "Manufacturer" "onsemi(安森美)"
-			(at 43.18 96.52 0)
+			(at 52.07 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9151,7 +8679,7 @@
 			)
 		)
 		(property "Supplier Part" "C243087"
-			(at 43.18 96.52 0)
+			(at 52.07 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9160,7 +8688,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 43.18 96.52 0)
+			(at 52.07 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9169,7 +8697,7 @@
 			)
 		)
 		(property "LCSC Part Name" "1个N沟道 耐压:60V 电流:32A 停产"
-			(at 43.18 96.52 0)
+			(at 52.07 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9197,7 +8725,7 @@
 	)
 	(symbol
 		(lib_id "DriverControlsLib:0001.2511.TR")
-		(at -21.59 113.03 0)
+		(at 39.37 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9206,7 +8734,7 @@
 		(fields_autoplaced yes)
 		(uuid "8ca658af-49d6-4a90-9f23-fbc5fe43ff8f")
 		(property "Reference" "F2"
-			(at -21.59 113.03 0)
+			(at 39.37 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9214,7 +8742,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at -21.59 113.03 0)
+			(at 39.37 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9223,7 +8751,7 @@
 			)
 		)
 		(property "Footprint" "DriverControlsLib:FUSE-TH_BD5.4-W22.5-P27.5-D0.8"
-			(at -21.59 113.03 0)
+			(at 39.37 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9232,7 +8760,7 @@
 			)
 		)
 		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20210428/9A503759987094315AD78A099D34569F.pdf"
-			(at -21.59 113.03 0)
+			(at 39.37 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9241,7 +8769,7 @@
 			)
 		)
 		(property "Description" "Type:Ceramic Tube Fuse Current Rating:5A Voltage Rating  (AC):250V Voltage Rating (DC):150V Operating Temperature:-55°C~+125°C Operating Temperature:-55°C~+125°C Breaking Capacity:1.5kA"
-			(at -21.59 113.03 0)
+			(at 39.37 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9250,7 +8778,7 @@
 			)
 		)
 		(property "Manufacturer Part" "0001.2511.TR"
-			(at -21.59 113.03 0)
+			(at 39.37 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9259,7 +8787,7 @@
 			)
 		)
 		(property "Manufacturer" "SCHURTER"
-			(at -21.59 113.03 0)
+			(at 39.37 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9268,7 +8796,7 @@
 			)
 		)
 		(property "Supplier Part" "C1972726"
-			(at -21.59 113.03 0)
+			(at 39.37 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9277,7 +8805,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at -21.59 113.03 0)
+			(at 39.37 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9286,7 +8814,7 @@
 			)
 		)
 		(property "LCSC Part Name" "250V"
-			(at -21.59 113.03 0)
+			(at 39.37 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9379,7 +8907,7 @@
 	)
 	(symbol
 		(lib_id "DriverControlsLib:0001.2511.TR")
-		(at -21.59 176.53 0)
+		(at 39.37 163.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9388,7 +8916,7 @@
 		(fields_autoplaced yes)
 		(uuid "8ddca2b7-59f4-4c3a-8aba-31e2cbbed15a")
 		(property "Reference" "F5"
-			(at -21.59 176.53 0)
+			(at 39.37 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9396,7 +8924,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at -21.59 176.53 0)
+			(at 39.37 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9405,7 +8933,7 @@
 			)
 		)
 		(property "Footprint" "DriverControlsLib:FUSE-TH_BD5.4-W22.5-P27.5-D0.8"
-			(at -21.59 176.53 0)
+			(at 39.37 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9414,7 +8942,7 @@
 			)
 		)
 		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20210428/9A503759987094315AD78A099D34569F.pdf"
-			(at -21.59 176.53 0)
+			(at 39.37 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9423,7 +8951,7 @@
 			)
 		)
 		(property "Description" "Type:Ceramic Tube Fuse Current Rating:5A Voltage Rating  (AC):250V Voltage Rating (DC):150V Operating Temperature:-55°C~+125°C Operating Temperature:-55°C~+125°C Breaking Capacity:1.5kA"
-			(at -21.59 176.53 0)
+			(at 39.37 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9432,7 +8960,7 @@
 			)
 		)
 		(property "Manufacturer Part" "0001.2511.TR"
-			(at -21.59 176.53 0)
+			(at 39.37 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9441,7 +8969,7 @@
 			)
 		)
 		(property "Manufacturer" "SCHURTER"
-			(at -21.59 176.53 0)
+			(at 39.37 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9450,7 +8978,7 @@
 			)
 		)
 		(property "Supplier Part" "C1972726"
-			(at -21.59 176.53 0)
+			(at 39.37 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9459,7 +8987,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at -21.59 176.53 0)
+			(at 39.37 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9468,7 +8996,7 @@
 			)
 		)
 		(property "LCSC Part Name" "250V"
-			(at -21.59 176.53 0)
+			(at 39.37 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9608,7 +9136,7 @@
 	)
 	(symbol
 		(lib_id "DriverControlsLib:0001.2511.TR")
-		(at -21.59 153.67 0)
+		(at 39.37 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9617,7 +9145,7 @@
 		(fields_autoplaced yes)
 		(uuid "91038736-c500-42da-be8b-8b309ec8522a")
 		(property "Reference" "F4"
-			(at -21.59 153.67 0)
+			(at 39.37 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9625,7 +9153,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at -21.59 153.67 0)
+			(at 39.37 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9634,7 +9162,7 @@
 			)
 		)
 		(property "Footprint" "DriverControlsLib:FUSE-TH_BD5.4-W22.5-P27.5-D0.8"
-			(at -21.59 153.67 0)
+			(at 39.37 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9643,7 +9171,7 @@
 			)
 		)
 		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20210428/9A503759987094315AD78A099D34569F.pdf"
-			(at -21.59 153.67 0)
+			(at 39.37 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9652,7 +9180,7 @@
 			)
 		)
 		(property "Description" "Type:Ceramic Tube Fuse Current Rating:5A Voltage Rating  (AC):250V Voltage Rating (DC):150V Operating Temperature:-55°C~+125°C Operating Temperature:-55°C~+125°C Breaking Capacity:1.5kA"
-			(at -21.59 153.67 0)
+			(at 39.37 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9661,7 +9189,7 @@
 			)
 		)
 		(property "Manufacturer Part" "0001.2511.TR"
-			(at -21.59 153.67 0)
+			(at 39.37 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9670,7 +9198,7 @@
 			)
 		)
 		(property "Manufacturer" "SCHURTER"
-			(at -21.59 153.67 0)
+			(at 39.37 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9679,7 +9207,7 @@
 			)
 		)
 		(property "Supplier Part" "C1972726"
-			(at -21.59 153.67 0)
+			(at 39.37 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9688,7 +9216,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at -21.59 153.67 0)
+			(at 39.37 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9697,7 +9225,7 @@
 			)
 		)
 		(property "LCSC Part Name" "250V"
-			(at -21.59 153.67 0)
+			(at 39.37 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9715,72 +9243,6 @@
 			(project "DC"
 				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
 					(reference "F4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at -26.67 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "93259b72-de18-4f4a-a930-89d85d4aba94")
-		(property "Reference" "#PWR034"
-			(at -26.67 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at -26.67 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at -26.67 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at -26.67 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at -26.67 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fda5279d-1eae-4acf-a73d-3955dcd910a9")
-		)
-		(instances
-			(project "DC"
-				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
-					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -10212,7 +9674,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 48.26 76.2 90)
+		(at 57.15 80.01 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10221,7 +9683,7 @@
 		(fields_autoplaced yes)
 		(uuid "b3cef25f-aac3-4df3-af0e-305e9ebd0ea4")
 		(property "Reference" "#PWR022"
-			(at 54.61 76.2 0)
+			(at 63.5 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10230,7 +9692,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 52.07 76.1999 90)
+			(at 60.96 80.0099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10239,7 +9701,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 76.2 0)
+			(at 57.15 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10248,7 +9710,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 76.2 0)
+			(at 57.15 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10257,7 +9719,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 48.26 76.2 0)
+			(at 57.15 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10279,23 +9741,23 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 55.88 106.68 90)
+		(at 58.42 85.09 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b7338a02-21e2-4bb4-83f4-1f61ee4e6eca")
+		(uuid "b6114ee7-e05f-4898-a0dd-3702dcd841e1")
 		(property "Reference" "R4"
-			(at 55.88 104.14 90)
+			(at 58.42 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1kΩ"
-			(at 55.88 106.68 90)
+		(property "Value" "220Ω"
+			(at 58.42 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10303,7 +9765,7 @@
 			)
 		)
 		(property "Footprint" "DriverControlsLib:RES-TH_BD2.2-L6.5-P10.50-D0.6"
-			(at 55.88 108.458 90)
+			(at 58.42 86.868 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10312,7 +9774,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 55.88 106.68 0)
+			(at 58.42 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10321,7 +9783,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 55.88 106.68 0)
+			(at 58.42 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10330,10 +9792,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "39a993d8-cd60-4262-a4b7-5fe0bafc1eeb")
+			(uuid "70f3e9eb-2443-4847-9482-64a94098205f")
 		)
 		(pin "2"
-			(uuid "9155eb78-f290-48f9-9bea-6f22650e73e8")
+			(uuid "5889e44f-fa01-4059-83e5-a6cef8c20f99")
 		)
 		(instances
 			(project "DC"
@@ -10631,73 +10093,6 @@
 			(project "DC"
 				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
 					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 66.04 147.32 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "be340b9b-8466-4008-bdab-f694c9d0b254")
-		(property "Reference" "#PWR06"
-			(at 72.39 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 69.85 147.3199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 66.04 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9603ac3b-18f9-4ad4-ac1f-be7546b5b9dc")
-		)
-		(instances
-			(project "DC"
-				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
-					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -11250,7 +10645,7 @@
 	)
 	(symbol
 		(lib_id "DriverControlsLib:FQP30N06L")
-		(at 43.18 76.2 90)
+		(at 52.07 80.01 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11258,7 +10653,7 @@
 		(dnp no)
 		(uuid "c7cc2285-f481-402a-82cf-863659cf57c5")
 		(property "Reference" "U1"
-			(at 43.18 68.58 90)
+			(at 52.07 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11266,7 +10661,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 43.18 71.12 90)
+			(at 52.07 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11274,7 +10669,7 @@
 			)
 		)
 		(property "Footprint" "DriverControlsLib:TO220-3_ONS"
-			(at 43.18 76.2 0)
+			(at 52.07 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11283,7 +10678,7 @@
 			)
 		)
 		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20220923/DB01B4617723520DCFE997B5B1D3C46E.pdf"
-			(at 43.18 76.2 0)
+			(at 52.07 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11292,7 +10687,7 @@
 			)
 		)
 		(property "Description" "Type:1个NChannel Drain Source Voltage (Vdss):60V Continuous Drain Current (Id): Power Dissipation (Pd): Drain Source On Resistance (RDS(on)@Vgs,Id): Gate Threshold Voltage (Vgs(th)@Id):2.5V@250uA Total Gate Charge (Qg@Vgs):20nC@5V Input Capacitance (Ciss@V"
-			(at 43.18 76.2 0)
+			(at 52.07 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11301,7 +10696,7 @@
 			)
 		)
 		(property "Manufacturer Part" "FQP30N06L"
-			(at 43.18 76.2 0)
+			(at 52.07 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11310,7 +10705,7 @@
 			)
 		)
 		(property "Manufacturer" "onsemi(安森美)"
-			(at 43.18 76.2 0)
+			(at 52.07 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11319,7 +10714,7 @@
 			)
 		)
 		(property "Supplier Part" "C243087"
-			(at 43.18 76.2 0)
+			(at 52.07 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11328,7 +10723,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 43.18 76.2 0)
+			(at 52.07 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11337,7 +10732,7 @@
 			)
 		)
 		(property "LCSC Part Name" "1个N沟道 耐压:60V 电流:32A 停产"
-			(at 43.18 76.2 0)
+			(at 52.07 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11432,7 +10827,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 50.8 137.16 90)
+		(at 59.69 140.97 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11441,7 +10836,7 @@
 		(fields_autoplaced yes)
 		(uuid "cf1d907c-e196-448e-94e6-940386dedef1")
 		(property "Reference" "#PWR030"
-			(at 57.15 137.16 0)
+			(at 66.04 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11450,7 +10845,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 54.61 137.1599 90)
+			(at 63.5 140.9699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11459,7 +10854,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 137.16 0)
+			(at 59.69 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11468,7 +10863,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 137.16 0)
+			(at 59.69 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11477,7 +10872,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 50.8 137.16 0)
+			(at 59.69 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11565,75 +10960,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 55.88 147.32 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d631b524-0d6e-4634-8606-dcc30de90b00")
-		(property "Reference" "R6"
-			(at 55.88 144.78 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1kΩ"
-			(at 55.88 147.32 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "DriverControlsLib:RES-TH_BD2.2-L6.5-P10.50-D0.6"
-			(at 55.88 149.098 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 55.88 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 55.88 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3ffb7c5c-49f8-4439-83e8-65c5b897594f")
-		)
-		(pin "2"
-			(uuid "b5030ed0-2956-4799-937d-d4078352eaa2")
-		)
-		(instances
-			(project "DC"
-				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "DriverControlsLib:0001.2511.TR")
-		(at -21.59 133.35 0)
+		(at 39.37 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11642,7 +10970,7 @@
 		(fields_autoplaced yes)
 		(uuid "d8f4ad45-0091-4b19-b043-5a8c553d2b7d")
 		(property "Reference" "F3"
-			(at -21.59 133.35 0)
+			(at 39.37 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11650,7 +10978,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at -21.59 133.35 0)
+			(at 39.37 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11659,7 +10987,7 @@
 			)
 		)
 		(property "Footprint" "DriverControlsLib:FUSE-TH_BD5.4-W22.5-P27.5-D0.8"
-			(at -21.59 133.35 0)
+			(at 39.37 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11668,7 +10996,7 @@
 			)
 		)
 		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20210428/9A503759987094315AD78A099D34569F.pdf"
-			(at -21.59 133.35 0)
+			(at 39.37 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11677,7 +11005,7 @@
 			)
 		)
 		(property "Description" "Type:Ceramic Tube Fuse Current Rating:5A Voltage Rating  (AC):250V Voltage Rating (DC):150V Operating Temperature:-55°C~+125°C Operating Temperature:-55°C~+125°C Breaking Capacity:1.5kA"
-			(at -21.59 133.35 0)
+			(at 39.37 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11686,7 +11014,7 @@
 			)
 		)
 		(property "Manufacturer Part" "0001.2511.TR"
-			(at -21.59 133.35 0)
+			(at 39.37 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11695,7 +11023,7 @@
 			)
 		)
 		(property "Manufacturer" "SCHURTER"
-			(at -21.59 133.35 0)
+			(at 39.37 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11704,7 +11032,7 @@
 			)
 		)
 		(property "Supplier Part" "C1972726"
-			(at -21.59 133.35 0)
+			(at 39.37 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11713,7 +11041,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at -21.59 133.35 0)
+			(at 39.37 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11722,7 +11050,7 @@
 			)
 		)
 		(property "LCSC Part Name" "250V"
-			(at -21.59 133.35 0)
+			(at 39.37 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12583,6 +11911,73 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 58.42 146.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f97b2e3f-59e4-4e8d-8a9d-a973196df971")
+		(property "Reference" "R6"
+			(at 58.42 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220Ω"
+			(at 58.42 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DriverControlsLib:RES-TH_BD2.2-L6.5-P10.50-D0.6"
+			(at 58.42 147.828 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 58.42 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae82c3ec-07d0-41b0-acf0-edd86b5e4b02")
+		)
+		(pin "2"
+			(uuid "5c32d976-6da8-46f1-a70b-184de8d1c893")
+		)
+		(instances
+			(project "DC"
+				(path "/7c560bbd-cfc0-42ab-b727-e631475cbcaa"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 160.02 166.37 0)
 		(mirror y)
 		(unit 1)
@@ -12651,7 +12046,7 @@
 	)
 	(symbol
 		(lib_id "DriverControlsLib:0001.2511.TR")
-		(at -21.59 90.17 0)
+		(at 39.37 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12660,7 +12055,7 @@
 		(fields_autoplaced yes)
 		(uuid "faffc683-8b8d-4f04-afc1-20d71287cc2e")
 		(property "Reference" "F1"
-			(at -21.59 90.17 0)
+			(at 39.37 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12668,7 +12063,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at -21.59 90.17 0)
+			(at 39.37 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12677,7 +12072,7 @@
 			)
 		)
 		(property "Footprint" "DriverControlsLib:FUSE-TH_BD5.4-W22.5-P27.5-D0.8"
-			(at -21.59 90.17 0)
+			(at 39.37 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12686,7 +12081,7 @@
 			)
 		)
 		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20210428/9A503759987094315AD78A099D34569F.pdf"
-			(at -21.59 90.17 0)
+			(at 39.37 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12695,7 +12090,7 @@
 			)
 		)
 		(property "Description" "Type:Ceramic Tube Fuse Current Rating:5A Voltage Rating  (AC):250V Voltage Rating (DC):150V Operating Temperature:-55°C~+125°C Operating Temperature:-55°C~+125°C Breaking Capacity:1.5kA"
-			(at -21.59 90.17 0)
+			(at 39.37 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12704,7 +12099,7 @@
 			)
 		)
 		(property "Manufacturer Part" "0001.2511.TR"
-			(at -21.59 90.17 0)
+			(at 39.37 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12713,7 +12108,7 @@
 			)
 		)
 		(property "Manufacturer" "SCHURTER"
-			(at -21.59 90.17 0)
+			(at 39.37 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12722,7 +12117,7 @@
 			)
 		)
 		(property "Supplier Part" "C1972726"
-			(at -21.59 90.17 0)
+			(at 39.37 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12731,7 +12126,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at -21.59 90.17 0)
+			(at 39.37 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12740,7 +12135,7 @@
 			)
 		)
 		(property "LCSC Part Name" "250V"
-			(at -21.59 90.17 0)
+			(at 39.37 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
