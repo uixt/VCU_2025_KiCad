@@ -129,7 +129,7 @@
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.3,
-        "min_via_annular_width": 0.3,
+        "min_via_annular_width": 0.25,
         "min_via_diameter": 0.6,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
@@ -213,12 +213,12 @@
           "drill": 0.0
         },
         {
-          "diameter": 1.0,
-          "drill": 0.4
+          "diameter": 0.8,
+          "drill": 0.3
         },
         {
-          "diameter": 5.0,
-          "drill": 2.0
+          "diameter": 1.0,
+          "drill": 0.4
         }
       ],
       "zones_allow_external_fillets": false
@@ -488,7 +488,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

@@ -3214,6 +3214,10 @@
 		(uuid "8f5b33f6-80f5-4053-b2e1-c4170413a1fa")
 	)
 	(no_connect
+		(at 214.63 106.68)
+		(uuid "8f8f7bb7-a941-429d-a430-7ca717fcf97f")
+	)
+	(no_connect
 		(at 214.63 85.09)
 		(uuid "91a57e8f-42a4-485a-8816-158b780f2229")
 	)
@@ -3868,16 +3872,6 @@
 			(type default)
 		)
 		(uuid "85ffe721-c532-435f-a6a8-c085c36344c4")
-	)
-	(wire
-		(pts
-			(xy 199.39 106.68) (xy 214.63 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89d4d44c-4be0-4c47-bc31-92a138ce1839")
 	)
 	(wire
 		(pts
@@ -5124,17 +5118,6 @@
 			(justify right bottom)
 		)
 		(uuid "a1953c60-e74a-4b14-833e-29008d24ea56")
-	)
-	(label "RSignalLightIn"
-		(at 199.39 106.68 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a2f42d01-6c0d-4fe2-b67f-d9f532ef6f71")
 	)
 	(label "+3V3"
 		(at 267.97 59.69 0)
